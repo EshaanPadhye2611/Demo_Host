@@ -45,7 +45,7 @@
 
     header {
       height: 100vh;
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -103,6 +103,14 @@
       color: #0066cc;
     }
 
+    .section-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin: 2rem 0;
+      border-radius: 15px;
+    }
+
     footer {
       text-align: center;
       padding: 2rem;
@@ -139,31 +147,45 @@
     <h2 style="text-align:center">Top Destinations</h2>
     <div class="destinations-grid">
       <div class="destination-card">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Santorini">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Santorini">
         <h3>Santorini, Greece</h3>
       </div>
       <div class="destination-card">
-        <img src="https://images.unsplash.com/photo-1549887534-6795e7f3d5e1" alt="Bali">
+        <img src="https://images.unsplash.com/photo-1549887534-6795e7f3d5e1?auto=format&fit=crop&w=800&q=80" alt="Bali">
         <h3>Bali, Indonesia</h3>
       </div>
       <div class="destination-card">
-        <img src="https://images.unsplash.com/photo-1587502536263-9298b63efc3c" alt="Paris">
+        <img src="https://images.unsplash.com/photo-1587502536263-9298b63efc3c?auto=format&fit=crop&w=800&q=80" alt="Paris">
         <h3>Paris, France</h3>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764ce5?auto=format&fit=crop&w=800&q=80" alt="Dubai">
+        <h3>Dubai, UAE</h3>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=800&q=80" alt="Switzerland">
+        <h3>Swiss Alps, Switzerland</h3>
+      </div>
+      <div class="destination-card">
+        <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=80" alt="New York">
+        <h3>New York, USA</h3>
       </div>
     </div>
   </section>
 
   <section id="about">
     <h2 style="text-align:center">About Us</h2>
+    <img class="section-image" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" alt="About Us">
     <p style="max-width:800px; margin: auto; text-align:center;">
-      Wanderlust Travels is dedicated to helping you explore the world's most beautiful places with comfort, convenience, and unforgettable experiences. Let us take you where your heart desires.
+      Wanderlust Travels is dedicated to helping you explore the world's most beautiful places with comfort, convenience, and unforgettable experiences. Whether you're dreaming of tropical beaches, cultural capitals, or mountain escapes, we've got you covered.
     </p>
   </section>
 
   <section id="contact">
     <h2 style="text-align:center">Contact</h2>
+    <img class="section-image" src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1200&q=80" alt="Contact Us">
     <p style="max-width:800px; margin: auto; text-align:center;">
-      Reach out to us via email: explore@wanderlust.com or follow us on social media for travel inspiration and deals.
+      Reach out to us via email: explore@wanderlust.com or follow us on Instagram, Twitter, and Facebook for daily travel inspiration, tips, and exclusive offers.
     </p>
   </section>
 
